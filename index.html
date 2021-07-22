@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home_page</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/index.js"></script>
+</head>
+
+<body>
+    <div class="side">
+        <a href="#main"><span></span></a>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="main">
+        <a name="main"></a>
+        <div class="header">
+            <div class="header_son">
+                <div class="header_left">
+                    <img src="./images/headerLogo.jpg" alt="">
+                    <ul>
+                        <li onmouseover="showMenu('menu');" onmouseout="hiddenMenu('menu');">产品与服务
+                            <div id="menu">
+                                <div class="menu_son">
+                                    <h2>端口器件</h2>
+                                    <hr>
+                                    <ol>
+                                        <li>显示与传感器件</li>
+                                        <li>传感器与解决方案</li>
+                                    </ol>
+                                </div>
+                                <div class="menu_son">
+                                    <h2>智慧物联</h2>
+                                    <hr>
+                                    <ol>
+                                        <li>loT解决方案</li>
+                                        <li>智造服务</li>
+                                        <li>数字艺术</li>
+                                    </ol>
+                                </div>
+                                <div class="menu_son">
+                                    <h2>智慧医工</h2>
+                                    <hr>
+                                    <ol>
+                                        <li>移动健康</li>
+                                        <li>健康服务</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </li>
+                        <li onmouseover="showMenu('menu1');" onmouseout="hiddenMenu('menu1');">创新科技
+                            <div id="menu1">
+                                <div class="menu_son">
+                                    <h2>BOE创新</h2>
+                                </div>
+                                <div class="menu_son">
+                                    <h2>科技知乎</h2>
+                                </div>
+                                <div class="menu_son">
+                                    <h2>创新平台</h2>
+                                    <hr>
+                                    <ol>
+                                        <li>协同创新平台</li>
+                                        <li>创想空间</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </li>
+                        <li>新闻中心</li>
+                        <li>BOE商城</li>
+                    </ul>
+
+                </div>
+                <div class="header_right">
+                    <ul>
+                        <li>关于我们</li>
+                        <li>投资者关系</li>
+                        <li>加入我们</li>
+                        <li>多媒体中心</li>
+
+                    </ul>
+                    <p>
+                        <input type="search" name="search" id="search" placeholder="请输入关键词">
+                        <span></span>
+                        <a href="javascript:;">English</a>
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="banner">
+            <img src="./images/pic1.jpg" id="img" alt="">
+            <div class="banner_spot">
+                <p>
+                    <span id="spot1" onclick="showImg('../images/pic1.jpg','spot1'); current('0');"></span>
+                    <span id="spot2" onclick="showImg('../images/pic2.jpg','spot2'); current('1');"></span>
+                    <span id="spot3" onclick="showImg('../images/img5.jpeg','spot3'); current('2');"></span>
+                </p>
+            </div>
+        </div>
+        <div class="project">
+            <h2 class="title">产品与服务</h2>
+            <div class="content_box">
+                <div class="box">
+                    <div class="img"><img src="./images/img1.jpeg" id="imgg1" alt="端口器件" /></div>
+                    <p class="txt">端口器件</p>
+                </div>
+                <div class="box">
+                    <div class="img"><img src="./images/img8.jpeg" id="imgg2" alt="智慧物联" /></div>
+                    <p class="txt">智慧物联</p>
+                </div>
+                <div class="box">
+                    <div class="img"><img src="./images/img3.jpeg" id="imgg3" alt="智慧医工" /></div>
+                    <p class="txt">智慧医工</p>
+                </div>
+            </div>
+            <!-- <div class="side">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> -->
+            <div class="clear"></div>
+        </div>
+        <hr>
+        <div class="innovate">
+            <h2>创新科技</h2>
+            <img src="./images/img9.jpeg" alt="">
+        </div>
+        <div class="news">
+            <h2>热点新闻</h2>
+            <div class="content_box">
+                <div class="box">
+                    <img src="./images/img8.jpeg" alt="BOE（京东方）智慧显示">
+                    <p>BOE（京东方）智慧显示系统解决方案 惊艳亮相中华人民共和国成立70周年庆祝活动</p>
+                    <a href="#">阅读全文></a>
+                </div>
+                <div class="box">
+                    <img src="./images/img2.png" alt="">
+                    <p>BOE（京东方）推百万级对比度BD Cell显示技术</p>
+                    <a href="#">阅读全文></a>
+                </div>
+                <div class="box">
+                    <img src="./images/img10.jpg" alt="">
+                    <p>直击SID 2019：BOE（京东方）创新显示技术带你感受前沿科技魅力</p>
+                    <a href="#">阅读全文></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="follow">
+            <div class="follow_son">
+                <span>在社交媒体上关注我们 :</span>
+                <span class="span"><img src="./images/weixinCode.png" id="imgyzm1" alt=""></span>
+                <span class="span"><img src="./images/weiboCode.png" id="imgyzm2" alt=""></span>
+                <span class="span"><img src="./images/yleym.png" id="imgyzm3" alt=""></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="footer">
+            <div class="footer_son">
+                <div class="ul">
+                    <ul>
+                        <li>端口器件</li>
+                        <li>智慧物联</li>
+                        <li>智慧医工</li>
+                    </ul>
+                    <ul>
+                        <li>BOE创新</li>
+                        <li>科技知乎</li>
+                        <li>协同创新平台</li>
+                        <li>创想空间</li>
+                    </ul>
+                    <ul>
+                        <li>关于BOE</li>
+                        <li>投资者关系</li>
+                        <li>企业社会责任</li>
+                    </ul>
+                    <ul>
+                        <li>新闻中心</li>
+                        <li>BOE说</li>
+                    </ul>
+                </div>
+                <div class="code">
+                    <div class="code_left">
+                        <img src="./images/qrcode2.png" alt="">
+                        <p>BOE画屏App</p>
+                    </div>
+                    <div class="code_right">
+                        <img src="./images/qrcode3.png" alt="">
+                        <p>BOE移动健康App</p>
+                    </div>
+
+                </div>
+                <div class="clear"></div>
+                <hr>
+                <p class="p">
+                    <span>网站地图</span> &nbsp;|&nbsp;
+                    <span>隐私条款</span> &nbsp;|&nbsp;
+                    <span>除名查询</span> &nbsp;|&nbsp;
+                    <span>快速链接</span>
+                </p>
+                <p class="p">
+                    <span>Copyright©2020京东方科技集团股份有限公司 版权所有</span>
+                </p>
+                <p class="p">
+                    京ICP备12041691号-2.<span>京公网安备11010502026582</span><br/><span>互联网药品信息服务资格证书 （京）-非经营性-2017-0039</span>
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
